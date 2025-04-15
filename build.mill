@@ -8,9 +8,9 @@ object baz extends KotlinModule with SonatypeCentralPublishModule {
   def publishVersion = "0.0.1"
 
   def pomSettings = PomSettings(
-    description = "Mill Sonatype Publish PoC Scala",
+    description = "Mill Sonatype Publish PoC Kotlin",
     organization = "io.github.c0d33ngr",
-    url = "https://github.com/c0d33ngr/example",
+    url = "https://github.com/c0d33ngr/mill-sonatype-publish-poc-kotlin",
     licenses = Seq(License.MIT),
     versionControl = VersionControl.github("c0d33ngr", "example"),
     developers = Seq(Developer("c0d33ngr", "Jeffrey Whewhetu", "https://c0d33ngr.github.io")),
